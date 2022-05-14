@@ -1,6 +1,6 @@
 # MFE boilerplate
 
-MFE boilerplate code used in [https://github.com/AdrianApan/mfe-react](https://github.com/AdrianApan/mfe-react)
+MFE boilerplate code used in [https://github.com/Markkos89/mfe-poc-react](https://github.com/Markkos89/mfe-poc-react)
 
 ## ℹ️ Requirements
 

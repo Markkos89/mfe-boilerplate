@@ -16,7 +16,7 @@ export const Home: FC = () => {
           <Heading m={10}>
             React 18 + Redux-Toolkit + RKT Query + Chakra UI + React router 6 DEMO
           </Heading>
-          <Link to="/home2">Home</Link> | <Link to="/">Users list</Link>
+          <Link to="/home2">Home</Link> | <Link to="/users">Users list</Link>
         </Container>
       </main>
     </>

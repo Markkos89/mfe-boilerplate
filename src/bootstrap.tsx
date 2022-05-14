@@ -14,10 +14,10 @@ const store = setupStore()
 
 root.render(
   <React.StrictMode>
-    <HelmetProvider>
-      <Provider store={store}>
+    <Provider store={store}>
+      <HelmetProvider>
         <App />
-      </Provider>
-    </HelmetProvider>
+      </HelmetProvider>
+    </Provider>
   </React.StrictMode>,
 )

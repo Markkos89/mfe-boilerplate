@@ -1,10 +1,8 @@
 import React from 'react'
-import { Route, Routes, BrowserRouter } from 'react-router-dom'
-import { Home } from './pages/Home'
-import { Users } from './pages/Users'
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { ChakraProvider } from '@chakra-ui/react'
-import { hot } from 'react-hot-loader/root'
+import { Home } from './pages/Home'
+import { UsersPage } from './pages/UsersPage'
 
 const App = () => {
   if (window.location.pathname === '/') {
@@ -15,7 +13,7 @@ const App = () => {
             <Routes>
               <Route path="*">
                 <Route path="home2" element={<Home />} />
-                <Route index element={<Users />} />
+                <Route index element={<UsersPage />} />
                 <Route path="*" element={<div>Not found</div>} />
               </Route>
             </Routes>
@@ -30,7 +28,7 @@ const App = () => {
         <Routes>
           <Route path="*">
             <Route path="home2" element={<Home />} />
-            <Route index element={<Users />} />
+            <Route index element={<UsersPage />} />
             <Route path="*" element={<div>Not found</div>} />
           </Route>
         </Routes>
@@ -39,4 +37,4 @@ const App = () => {
   )
 }
 
-export default hot(App)
+export default App
